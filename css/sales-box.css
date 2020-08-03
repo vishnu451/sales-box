@@ -14,12 +14,63 @@ p.sales-hero-para{
 div.sales-hero-box{
     padding: 20px;
 }
+a.hero-a-tag{
+    cursor: pointer;
+    text-decoration: none;
+}
 button.btn.btn-hero-sales{
     width: 275px;
     height: 45px;
     font-size: 20px;
     border-radius: 50px;
+    border: none;
     background-color: #ffd246;
-    color: #000;
+    color: #16325C;
     font-weight: 600;
 }
+/*featured cards 1 section starts here*/
+div.featured-card-1{
+    padding: 20px;
+    text-align: center;
+}
+button.btn.btn-cards-1{
+    font-family: montserrat;
+    width: 185px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffd246;
+    color: #16325C;
+    outline: none;
+    box-shadow: 0 12px 18px #ffb90863;
+    cursor: pointer;
+}
+div.cards-1{
+    width: 100%;
+    max-width: 250px;
+    height: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+
+}
+/*featured cards 2 section starts here*/
+div.featured-card-2{
+    padding: 20px;
+    text-align: center;
+}
+div.cards-2{
+    width: 100%;
+    max-width:300px;
+    height: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+}
+
