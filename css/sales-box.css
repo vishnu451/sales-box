@@ -50,12 +50,13 @@ button.btn.btn-cards-1{
 div.cards-1{
     width: 100%;
     max-width: 250px;
-    height: 500px;
+    height: 550px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px; */
+    box-shadow: 0 0px 8px #00000028;
 
 }
 /*featured cards 2 section starts here*/
@@ -73,4 +74,46 @@ div.cards-2{
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
 }
-
+/*why ism starts here*/
+div.why-ism{
+    padding: 20px;
+    /* text-align: center; */
+}
+button.btn.why-ism-btn{
+    font-family: montserrat;
+    width: 185px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffd246;
+    color: #16325C;
+    outline: none;
+    box-shadow: 0 12px 18px #ffb90863;
+    cursor: pointer;
+}
+/*why teleduce section starts here*/
+div.why-teleduce-title h1{
+    text-align: center;
+}
+section.why-teleduce-section{
+    background-color: #f7f7f7;
+}
+div.why-teleduce{
+  padding: 20px;
+}
+div.why-teleduce-content{
+    width: 100%;
+    max-width: 550px;
+    height: 400px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+}
+div.why-teleduce-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
