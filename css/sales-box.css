@@ -1,0 +1,25 @@
+/*sales hero section starts here*/
+section.sales-hero-section{
+    background-color: #0093dd;
+}
+h1.sales-hero-h1{
+    color: #fff;
+    font-weight: 900;
+}
+p.sales-hero-para{
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+}
+div.sales-hero-box{
+    padding: 20px;
+}
+button.btn.btn-hero-sales{
+    width: 275px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #ffd246;
+    color: #000;
+    font-weight: 600;
+}
