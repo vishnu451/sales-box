@@ -117,3 +117,44 @@ div.why-teleduce-card{
     flex-direction: row;
     flex-wrap: wrap;
 }
+/*customers slider section starts here*/
+section.customers-slider{
+    background-color: #f7f7f7;
+}
+/*signup section starts here*/
+section.freetrial-signup-section{
+    background-color: #ffd246;
+}
+div.freetrial-signup{
+    padding: 20px;
+}
+div.signup-title h1{
+    text-align: center;
+    color: #fff;
+}
+input#signup-name.form-control,
+input#signup-mobile.form-control
+{   
+    width: 275px;
+    height: 45px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+}
+input#sales-signup-submit.btn.btn-sales-signup{
+    font-family: montserrat;
+    width: 275px;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    background-color: #0093dd;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
