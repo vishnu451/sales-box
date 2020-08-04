@@ -93,6 +93,30 @@ button.btn.why-ism-btn{
     box-shadow: 0 12px 18px #ffb90863;
     cursor: pointer;
 }
+/*tabs section starts here*/
+section.tabs-section{
+    padding: 20px;
+}
+.nav-tabs{
+    border: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #0093dd;
+    cursor: default;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #0093dd;
+}
+.nav-tabs>li>a {
+border: 0;
+color: #16325c;
+}
+div.tab-content
+{   
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-top: 25px;
+}
 /*why teleduce section starts here*/
 div.why-teleduce-title h1{
     text-align: center;
