@@ -59,6 +59,13 @@ div.cards-1{
     box-shadow: 0 0px 8px #00000028;
 
 }
+div.featured-card-1-title h1{
+    color: #16325c;
+    font-weight: 600;
+}
+div.cards-1-title h3{
+    color: #16325c;
+}
 /*featured cards 2 section starts here*/
 div.featured-card-2{
     padding: 20px;
@@ -73,6 +80,18 @@ div.cards-2{
     background-color: #fff;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+}
+div.cards-2-title h3{
+    color: #16325c;
+    font-weight: 600;
+}
+div.featured-card-2-title h1{
+    color: #16325c;
+    font-weight: 600;
+}
+div.featured-card-2-footer h1{
+    color: #16325c;
+    font-weight: 600;
 }
 /*product features section starts here*/
 section.product-features-section{
@@ -103,6 +122,10 @@ div.fc-icon{
 div.why-ism{
     padding: 20px;
     /* text-align: center; */
+}
+div.why-ism-title h1{
+    color: #16325c;
+    font-weight: 600;
 }
 button.btn.why-ism-btn{
     font-family: montserrat;
@@ -142,9 +165,28 @@ div.tab-content
   padding: 20px;
   margin-top: 25px;
 }
+p.tab-para{
+    color: #16325c;
+}
+/*testimonials section starts here*/
+div.testimonials-title h1{
+    color: #16325C;
+    font-weight: 600;
+    text-align: center;
+}
+section.testimonials-section{
+    background-color: #0093dd;
+    padding: 20px;
+}
+div.testimonials-content h1{
+    color: #fff;
+    font-weight: 600;
+}
 /*why teleduce section starts here*/
 div.why-teleduce-title h1{
     text-align: center;
+    color: #16325c;
+    font-weight: 600;
 }
 section.why-teleduce-section{
     background-color: #f7f7f7;
@@ -181,16 +223,22 @@ p.teleduce-data{
 section.customers-slider{
     background-color: #f7f7f7;
 }
+div.customers-slide-title h1{
+    text-align: center;
+    color: #16325c;
+    font-weight: 600;
+}
 /*signup section starts here*/
 section.freetrial-signup-section{
     background-color: #ffd246;
 }
 div.freetrial-signup{
-    padding: 20px;
+    padding: 30px;
 }
 div.signup-title h1{
     text-align: center;
     color: #fff;
+    font-weight: 600;
 }
 input#signup-name.form-control,
 input#signup-mobile.form-control
