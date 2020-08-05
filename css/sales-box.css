@@ -141,6 +141,17 @@ div.why-teleduce-card{
     flex-direction: row;
     flex-wrap: wrap;
 }
+div.teleduce-datas{
+    width: 100%;
+    max-width: 140px;
+    padding: 10px 0px 0px;
+    margin: 10px auto;
+}
+p.teleduce-data{
+    color: #0093dd;
+    font-weight: 600;
+    font-size: 30px;
+}
 /*customers slider section starts here*/
 section.customers-slider{
     background-color: #f7f7f7;
@@ -171,7 +182,7 @@ input#sales-signup-submit.btn.btn-sales-signup{
     font-family: montserrat;
     width: 275px;
     height: 45px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: block;
     font-size: 16px;
     font-weight: 500;
@@ -181,4 +192,18 @@ input#sales-signup-submit.btn.btn-sales-signup{
     color: white;
     outline: none;
     cursor: pointer;
+}
+/*media queries starts here*/
+@media only screen and (min-width:768px){
+    div.featured-cards-1{
+        display: flex;
+    }
+    div.featured-cards-2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    form#salesbox-signup-form{
+    display: flex;
+    }
 }
