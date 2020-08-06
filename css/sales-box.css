@@ -77,7 +77,7 @@ div.featured-card-2{
 div.cards-2{
     width: 100%;
     max-width:300px;
-    height: 300px;
+    min-height: 250px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
@@ -177,7 +177,7 @@ p.tab-para{
     color: #16325c;
 }
 ul.nav.nav-tabs li{
-    
+
 }
 /*testimonials section starts here*/
 div.testimonials-title h1{
@@ -215,6 +215,7 @@ div.why-teleduce-content{
     width: 100%;
     max-width: 500px;
     /* height: 250px; */
+    margin: 50px 0px;
     padding: 10px;
     background-color: #fff;
     border-radius: 25px;
@@ -235,6 +236,10 @@ p.teleduce-data{
     color: #0093dd;
     font-weight: 600;
     font-size: 24px;
+}
+img.teleduce-img{
+    width: 100%;
+    max-width: 350px;
 }
 /*customers slider section starts here*/
 section.customers-slider{
@@ -310,6 +315,14 @@ input#sales-signup-submit.btn.btn-sales-signup{
     }
     div.why-ism-content{
         margin-left: 50px;
+    }
+    div.why-teleduce{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0;
+    }
+    div.why-teleduce-content{
+        margin: 0;
     }
     /* div.sales-hero-box{
         display: flex;
