@@ -28,6 +28,9 @@ button.btn.btn-hero-sales{
     color: #16325C;
     font-weight: 600;
 }
+img.sales-img{
+    width: 100%;
+}
 /*featured cards 1 section starts here*/
 div.featured-card-1{
     padding: 20px;
@@ -127,6 +130,9 @@ div.why-ism-title h1{
     color: #16325c;
     font-weight: 600;
 }
+img.ism-image{
+width: 100%;
+}
 button.btn.why-ism-btn{
     font-family: montserrat;
     width: 185px;
@@ -154,10 +160,12 @@ section.tabs-section{
     background-color: #fff;
     border: 0;
     border-bottom: 1px solid #0093dd;
+    font-size: 30px;
 }
 .nav-tabs>li>a {
 border: 0;
 color: #16325c;
+font-size: 30px;
 }
 div.tab-content
 {   
@@ -167,6 +175,9 @@ div.tab-content
 }
 p.tab-para{
     color: #16325c;
+}
+ul.nav.nav-tabs li{
+    
 }
 /*testimonials section starts here*/
 div.testimonials-title h1{
@@ -182,6 +193,9 @@ div.testimonials-content h1{
     color: #fff;
     font-weight: 600;
 }
+div.testimonials-title{
+    padding: 20px;
+}
 /*why teleduce section starts here*/
 div.why-teleduce-title h1{
     text-align: center;
@@ -194,10 +208,13 @@ section.why-teleduce-section{
 div.why-teleduce{
   padding: 20px;
 }
+div.why-teleduce-title{
+    padding: 20px;
+}
 div.why-teleduce-content{
     width: 100%;
-    max-width: 550px;
-    height: 400px;
+    max-width: 500px;
+    /* height: 250px; */
     padding: 10px;
     background-color: #fff;
     border-radius: 25px;
@@ -217,7 +234,7 @@ div.teleduce-datas{
 p.teleduce-data{
     color: #0093dd;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
 }
 /*customers slider section starts here*/
 section.customers-slider{
@@ -227,6 +244,9 @@ div.customers-slide-title h1{
     text-align: center;
     color: #16325c;
     font-weight: 600;
+}
+div.customers-slide-title{
+    padding: 25px;
 }
 /*signup section starts here*/
 section.freetrial-signup-section{
@@ -284,4 +304,14 @@ input#sales-signup-submit.btn.btn-sales-signup{
     form#salesbox-signup-form{
     display: flex;
     }
+    div.why-ism{
+        display: flex;
+        align-items: center;
+    }
+    div.why-ism-content{
+        margin-left: 50px;
+    }
+    /* div.sales-hero-box{
+        display: flex;
+    } */
 }
