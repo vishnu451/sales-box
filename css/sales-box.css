@@ -187,14 +187,29 @@ div.testimonials-title h1{
 }
 section.testimonials-section{
     background-color: #0093dd;
-    padding: 20px;
+    padding: 50px 0;
 }
 div.testimonials-content h1{
     color: #fff;
     font-weight: 600;
+    line-height: 1.4em;
+    font-size: 60px;
 }
 div.testimonials-title{
     padding: 20px;
+}
+div.salesbox-testimonial{
+    width: 100%;
+    max-width: 400px;
+}
+div.testimonial-carousel{
+    background-color: #0093dd;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+}
+p.testimonial{
+    color: #fff;
 }
 /*why teleduce section starts here*/
 div.why-teleduce-title h1{
@@ -323,6 +338,11 @@ input#sales-signup-submit.btn.btn-sales-signup{
     }
     div.why-teleduce-content{
         margin: 0;
+    }
+    div.testimonials{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
     /* div.sales-hero-box{
         display: flex;
