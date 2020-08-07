@@ -259,6 +259,7 @@ img.teleduce-img{
 /*customers slider section starts here*/
 section.customers-slider{
     background-color: #f7f7f7;
+    padding: 50px 0px;
 }
 div.customers-slide-title h1{
     text-align: center;
