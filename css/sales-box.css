@@ -269,6 +269,12 @@ div.customers-slide-title h1{
 div.customers-slide-title{
     padding: 25px;
 }
+section.customer-logos.slider.salesbox-logos-slider{
+    background-color: #f7f7f7;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+}
 /*signup section starts here*/
 section.freetrial-signup-section{
     background-color: #ffd246;
