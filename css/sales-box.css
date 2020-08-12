@@ -253,6 +253,9 @@ p.teleduce-data{
     font-weight: 600;
     font-size: 24px;
 }
+p.teleduce-data-para{
+    color: #16325c;
+}
 img.teleduce-img{
     width: 100%;
     max-width: 350px;
