@@ -210,7 +210,8 @@ div.testimonials-content h1{
     color: #fff;
     font-weight: 600;
     line-height: 1.4em;
-    font-size: 60px;
+    font-size: 32px;
+    text-align: center;
 }
 div.testimonials-title{
     padding: 20px;
@@ -247,7 +248,7 @@ div.why-teleduce-content{
     width: 100%;
     max-width: 500px;
     /* height: 250px; */
-    margin: 50px 0px;
+    margin: 50px auto;
     padding: 10px;
     background-color: #fff;
     border-radius: 25px;
@@ -275,6 +276,8 @@ p.teleduce-data-para{
 img.teleduce-img{
     width: 100%;
     max-width: 350px;
+    margin: 0 auto;
+    display: block;
 }
 /*customers slider section starts here*/
 section.customers-slider{
@@ -300,7 +303,7 @@ section.freetrial-signup-section{
     background-color: #ffd246;
 }
 div.freetrial-signup{
-    padding: 30px;
+    padding: 50px;
 }
 div.signup-title h1{
     text-align: center;
@@ -337,6 +340,8 @@ input#sales-signup-submit.btn.btn-sales-signup{
 @media only screen and (min-width:768px){
     div.featured-cards-1{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     div.featured-cards-2{
         display: flex;
@@ -358,10 +363,13 @@ input#sales-signup-submit.btn.btn-sales-signup{
     div.why-ism-content{
         margin-left: 50px;
     }
+    section.why-teleduce-section{
+        padding: 50px 0;
+    }
     div.why-teleduce{
         display: flex;
         justify-content: space-around;
-        padding: 50px 0;
+        /* padding: 50px 0; */
     }
     div.why-teleduce-content{
         margin: 0;
@@ -371,8 +379,15 @@ input#sales-signup-submit.btn.btn-sales-signup{
         align-items: center;
         justify-content: space-around;
     }
+    div.testimonials-content{
+        width: 50%;
+    }
     section.testimonials-section{
         padding: 50px 0;
+    }
+    div.testimonials-content h1{
+        font-size: 60px;
+        text-align: left;
     }
     /* div.sales-hero-box{
         display: flex;
