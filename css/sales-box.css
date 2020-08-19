@@ -336,6 +336,10 @@ input#sales-signup-submit.btn.btn-sales-signup{
     outline: none;
     cursor: pointer;
 }
+p#form_error_freetrial,
+p#form_success_freetrial{
+    text-align: center;
+}
 /*media queries starts here*/
 @media only screen and (min-width:768px){
     div.featured-cards-1{

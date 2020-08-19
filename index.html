@@ -977,6 +977,8 @@
               <input type="text" placeholder="Enter your Mobile No." name="mobile" id="signup-mobile" class="form-control">
               <input type="submit" id="sales-signup-submit" class="btn btn-sales-signup" value="Start Your 7 Days Free Trial">
           </form>
+          <p id="form_success_freetrial"></p>
+          <p id="form_error_freetrial"></p>
         </div>
       </div>
     </div>
@@ -1081,7 +1083,7 @@
         a.appendChild(r);
       })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       (function () {
         var words = [
             "Capture and Convert Leads",
@@ -1099,8 +1101,52 @@
           });
         }, 3000);
       })();
-    </script>
+    </script> -->
     <!--Hotjar Tracking code ends here -->
+    <script>
+      $(document).ready(function(){
+        function isEmail(email) {
+          var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+          return regex.test(email);
+        }
+        function IsMobileNumber(txtMobId) {
+            var mob = /^[1-9]{1}[0-9]{9}$/;
+            return mob.test(txtMobId)
+        }
+    //signup box
+    $("#sales-signup-submit").click(function(){
+        var freetrialname = $('#signup-name').val();
+        var freetrialmobile = $('#signup-mobile').val();
+
+        if (freetrialname == ""){
+            $("#form_error_freetrial").html("Please enter your <strong>Name</strong>").attr("style","");
+            $('#signup-name').focus().attr("style","border-color:red");
+            // $(window).scrollTop($('#form_error_freetrial').offset().top);
+            return false;
+        }
+        else{
+            $('#signup-name').attr("style","");
+        }
+        if (freetrialmobile == ""){
+            $("#form_error_freetrial").attr("style","").html("Please enter your <strong>Mobile Number</strong>");
+            $('#signup-mobile').focus().attr("style","border-color:red");
+            // $(window).scrollTop($('#form_error_freetrial').offset().top);
+            return false;
+        }
+        else{
+            if (!IsMobileNumber(freetrialmobile)){
+                $("#form_error_freetrial").attr("style","").html("Please enter valid <strong>Mobile Number</strong>");
+                $('#signup-mobile').focus().attr("style","border-color:red");
+                // $(window).scrollTop($('#form_error_freetrial').offset().top);
+                return false;
+            }
+            else{
+                $('#signup-mobile').attr("style","");
+            }
+        }
+     });
+    });
+  </script>
   
     
   </body>
