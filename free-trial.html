@@ -353,6 +353,14 @@
 	<!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="js.hs-scripts.com/2423884.js"></script>
 <!-- End of HubSpot Embed Code -->
+<script>
+  var url_string = window.location.href;
+  var url = new URL(url_string);
+  var c = url.searchParams.get("name");
+  var d = url.searchParams.get("mobile");
+  document.getElementById('name').value = c;
+  document.getElementById('mobile').value = d;
+</script>
 
 </body>
 </html>
