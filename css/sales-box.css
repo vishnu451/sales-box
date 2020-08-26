@@ -149,6 +149,8 @@ div.why-ism-title h1{
 }
 img.ism-image{
 width: 100%;
+margin: 0 auto;
+display: block;
 }
 button.btn.why-ism-btn{
     font-family: montserrat;
@@ -342,6 +344,21 @@ p#form_success_freetrial{
 }
 /*media queries starts here*/
 @media only screen and (min-width:768px){
+    .sales-hero-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    img.sales-img{
+        width: 400px;
+    }
+    div.sales-hero-content{
+        text-align: right;
+    }
+    h1.sales-hero-h1{
+        font-size: 32px;
+    }
     div.featured-cards-1{
         display: flex;
         flex-direction: row;
@@ -367,16 +384,23 @@ p#form_success_freetrial{
     div.why-ism-content{
         margin-left: 50px;
     }
+    img.ism-image{
+        width: 450px;
+    }
     section.why-teleduce-section{
         padding: 50px 0;
     }
     div.why-teleduce{
         display: flex;
         justify-content: space-around;
+        align-items: center;
         /* padding: 50px 0; */
     }
     div.why-teleduce-content{
         margin: 0;
+    }
+    img.teleduce-img{
+        width: 400px;
     }
     div.testimonials{
         display: flex;
@@ -396,4 +420,9 @@ p#form_success_freetrial{
     /* div.sales-hero-box{
         display: flex;
     } */
+}
+@media only screen and (min-width:992px){
+    div.why-teleduce-content{
+    height: 250px;
+    }
 }
