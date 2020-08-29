@@ -133,10 +133,18 @@ div.fc-para p{
 }
 div.fc-icon{
     background-color: #fff;
-    max-width: 120px;
-    height: 120px;
+    max-width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin: 0 auto;
+    position: relative;
+}
+img.fc-image{
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    margin: 30px 0 0 25px;
+    position: absolute;
 }
 /*why ism starts here*/
 div.why-ism{
