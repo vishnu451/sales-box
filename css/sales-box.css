@@ -227,10 +227,14 @@ div.testimonials-title{
     padding: 20px;
 }
 div.salesbox-testimonial{
-    width: 100%;
-    max-width: 400px;
+    /* width: 100%;
+    max-width: 400px; */
+    padding: 0 30px;
 }
 div.testimonial-carousel{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     background-color: #f7f7f7;
     border-radius: 25px;
     border: 0;
