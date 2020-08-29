@@ -285,7 +285,7 @@ p.teleduce-data-para{
 }
 img.teleduce-img{
     width: 100%;
-    max-width: 350px;
+    /* max-width: 350px; */
     margin: 0 auto;
     display: block;
 }
@@ -408,7 +408,7 @@ p#form_success_freetrial{
         margin: 0;
     }
     img.teleduce-img{
-        width: 400px;
+        width: 450px;
     }
     div.testimonials{
         display: flex;
@@ -428,6 +428,11 @@ p#form_success_freetrial{
     /* div.sales-hero-box{
         display: flex;
     } */
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    img.teleduce-img{
+        width:300px;
+       }
 }
 @media only screen and (min-width:992px){
     div.why-teleduce-content{
