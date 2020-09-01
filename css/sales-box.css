@@ -86,6 +86,11 @@ div.featured-card-1-title h1{
 div.cards-1-title h3{
     color: #16325c;
 }
+img.cards-1-img{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
 /*featured cards 2 section starts here*/
 div.featured-card-2{
     padding: 20px;
@@ -112,6 +117,12 @@ div.featured-card-2-title h1{
 div.featured-card-2-footer h1{
     color: #16325c;
     font-weight: 600;
+    font-size: 32px;
+}
+img.cards-2-img{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
 }
 /*product features section starts here*/
 section.product-features-section{
