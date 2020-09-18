@@ -994,12 +994,15 @@
       <div class="modal-dialog">
         <div class="modal-content">
           
-          <div class="modal-header">
+          <!-- <div class="modal-header"> -->
             <!-- <h5 class="modal-title" id="exampleModalLabel">New message</h5> -->
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+            </button> -->
+          <!-- </div> -->
+          <button class="" id="popupclose" type="button" onclick="popupclose()">
+            <span aria-hidden="true">&times;</span>
+          </button>
           <div class="modal-body">
             <!-- <form>
               <div class="form-group">
@@ -1089,6 +1092,10 @@
     <script type="text/javascript">
       $(window).on('load',setTimeout(function(){
           $('#exampleModal').modal('show');}, 2000));
+
+      function popupclose(){
+            $("#exampleModal").modal('hide');
+          }
     </script>
 
 <script async defer>

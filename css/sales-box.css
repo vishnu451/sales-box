@@ -367,16 +367,22 @@ p#form_success_freetrial{
 }
 /*popup modal css starts here*/
 div.modal-content{
-    /* background-image: url(https://d2woyw6vp5g0b2.cloudfront.net/images/landingpage/Webinar-Popup-Poster-Sep24.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    
+    position: relative; 
 }
 div.modal-body{
     padding: 0;
 }
 div.modal-header{
     border: 0;
+}
+button#popupclose{
+    border: 0;
+    background: transparent;
+    color: #000;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    font-size: 25px;
 }
 /*media queries starts here*/
 @media only screen and (min-width:768px){
