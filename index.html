@@ -993,14 +993,15 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
+          
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+            <!-- <h5 class="modal-title" id="exampleModalLabel">New message</h5> -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <!-- <form>
               <div class="form-group">
                 <label for="recipient-name" class="col-form-label">Recipient:</label>
                 <input type="text" class="form-control" id="recipient-name">
@@ -1009,12 +1010,15 @@
                 <label for="message-text" class="col-form-label">Message:</label>
                 <textarea class="form-control" id="message-text"></textarea>
               </div>
-            </form>
+            </form> -->
+            <a href="https://www.corefactors.in/webinar-sell-faster" target="_blank">
+              <img src="images/landingpage/Webinar-Popup-Poster-Sep24.jpg" style="width: 100%;">
+            </a>
           </div>
-          <div class="modal-footer">
+          <!-- <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary">Send message</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -1060,8 +1064,8 @@
 
     <!-- common script --->
     <script src="js/common.min.js"></script>
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <!--glider js-->
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
@@ -1071,6 +1075,20 @@
            perView: 3
       };
       new Glide('.glide', config).mount()
+    </script>
+    <!-- <script>
+      setInterval(function() {
+    $('#exampleModal').modal();
+    }, 2000);
+    </script> -->
+    <!-- <script>
+      $(document).ready(function(){
+        $("#exampleModal").modal('show');
+      });
+    </script> -->
+    <script type="text/javascript">
+      $(window).on('load',setTimeout(function(){
+          $('#exampleModal').modal('show');}, 2000));
     </script>
 
 <script async defer>
